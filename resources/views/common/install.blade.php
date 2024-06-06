@@ -688,12 +688,7 @@ TkSuQmCC" />
     <h2>Alleo发卡 「{{ config('dujiaoka.dujiaoka_version') }}」</h2>
     <div>
 
-        <p>每个梦想的路上，一起前行....！
-            <a href="https://t.me/dujiaoka" id="qq-group-link" target="_blank">
-                👉🏻加入Telegram交流群
-            </a>
-        </p>
-
+        <p>每个梦想的路上，一起前行....！</p>
         <form method="post">
             <div id="error" style="display:none"></div>
             <div id="success" style="display:none"></div>
@@ -701,7 +696,7 @@ TkSuQmCC" />
             <div class="form-group">
                 <div class="form-field">
                     <label>MySQL 数据库地址</label>
-                    <input name="db_host" value="127.0.0.1" required="">
+                    <input name="db_host" value="db" required="">
                 </div>
 
                 <div class="form-field">
@@ -715,7 +710,7 @@ TkSuQmCC" />
 
                 <div class="form-field">
                     <label>MySQL 用户名</label>
-                    <input name="db_username" value="root" required="">
+                    <input name="db_username" value="dujiaoka" required="">
                 </div>
 
                 <div class="form-field">
@@ -727,7 +722,7 @@ TkSuQmCC" />
             <div class="form-group">
                 <div class="form-field">
                     <label>Redis 连接地址</label>
-                    <input name="redis_host" value="127.0.0.1" required="">
+                    <input name="redis_host" value="redis" required="">
                 </div>
 
                 <div class="form-field">
@@ -750,13 +745,13 @@ TkSuQmCC" />
 
                 <div class="form-field">
                     <label>网站url</label>
-                    <input name="app_url" value="" required="" placeholder="例如：http://dujiaoka.com" />
+                    <input name="app_url" value="" required="" placeholder="例如：https://buy.alleo.cn/" />
                 </div>
 
 
                 <div class="form-field">
                     <label>后台登录路径</label>
-                    <input  name="admin_path" value="/admin" required="" placeholder="例如：/admin">
+                    <input name="admin_path" value="/s6dm1n" required="" placeholder="例如：/s6dm1n">
                 </div>
 
             </div>
